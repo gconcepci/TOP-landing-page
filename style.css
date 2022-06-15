@@ -16,7 +16,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
-    padding: 20px 400px;
+    padding: 20px 500px;
 }
 
 .logo {
@@ -31,9 +31,49 @@
     gap: 40px;
 }
 
-.header ul li {
+.header ul li, .hero-text p {
     color: #E5E7EB;
     font-size: 18px;
 }
 
 /* Hero */
+
+.hero {
+    display: flex;
+    padding: 140px 500px;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-style: bold;
+    color: #F9FaF8;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 500px;
+}
+
+.hero-text p {
+    line-height: 1.4em;
+}
+
+.hero img {
+    height: auto;
+    width: 700px;
+}
+
+.hero button {
+    background-color: #3882F6;
+    color:#F9FaF8;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 140px;
+    font-size: 16px;
+    font-style: bold;
+}
