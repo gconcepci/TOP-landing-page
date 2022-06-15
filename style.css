@@ -7,6 +7,7 @@
 .container {
     display: flex;
     flex-direction: column;
+    
 }
 
 /* Header */
@@ -76,4 +77,44 @@
     width: 140px;
     font-size: 16px;
     font-style: bold;
+}
+
+/* Info */
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 0 400px;
+    background-color: #fff;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+
+.info h2 {
+    text-align: center;
+    margin: 60px 0;
+}
+
+.card img {
+    width: 300px;
+    height: 300px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.card p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
 }
