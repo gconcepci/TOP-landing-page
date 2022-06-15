@@ -72,7 +72,7 @@
     width: 700px;
 }
 
-.hero button {
+.btn {
     background-color: #3882F6;
     color:#F9FaF8;
     padding: 10px;
@@ -150,4 +150,36 @@
     width: 800px;
     font-size: 24px;
     font-weight: bold;
+}
+
+/* CTA */
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.cta-box {
+    background-color: #3882F6;
+    width: 800px;
+    height: 140px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 200px;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 5px;
+}
+
+.cta-box .btn {
+    border: 1px solid white;
+    border-color: white;
 }
